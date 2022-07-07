@@ -163,3 +163,57 @@
   font-size: 18px;
   color: #252525;
 }
+
+@media (max-width: 900px) {
+  .logo {
+    scale: 0.6;
+  }
+
+  .nav {
+    padding: 0.5rem;
+  }
+  .nav2 .categories {
+    margin-right: 0rem;
+  }
+  .categories .icon {
+    padding: 5px 0.2rem;
+  }
+  .categories .icon svg {
+    font-size: 0.8rem;
+  }
+
+  .name {
+    font-size: 0.7rem;
+  }
+  .main_nav {
+    scale: 0.6;
+  }
+  .user {
+    scale: 0.6;
+  }
+  .filter {
+    scale: 0.6;
+  }
+}
+
+@media (max-width: 400px) {
+  .main_nav {
+    margin: 0 -25px;
+  }
+  .nav2 {
+    padding: 0;
+  }
+  .icon {
+    scale: 0.8;
+  }
+  .nav2 .categories {
+    margin-right: -1rem;
+  }
+  .name {
+    font-size: 9px;
+  }
+
+  .main_nav ul li {
+    font-size: 9px;
+  }
+}

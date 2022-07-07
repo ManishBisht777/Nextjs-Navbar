@@ -6,7 +6,7 @@ import { GrLanguage, GrFormNext, GrFilter } from "react-icons/gr";
 import { GiBowTieRibbon, GiClothes, GiShop } from "react-icons/gi";
 
 const Navbar = () => {
-  const style = { color: "#252525", fontSize: "2.5rem" };
+  const style = { color: "#252525" };
 
   return (
     <div className={styles.navbar}>
